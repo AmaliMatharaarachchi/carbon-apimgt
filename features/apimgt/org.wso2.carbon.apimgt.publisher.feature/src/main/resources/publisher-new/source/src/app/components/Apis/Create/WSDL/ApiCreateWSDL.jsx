@@ -124,6 +124,7 @@ export default function SOAPToREST() {
                 },
             };
         }
+        additionalProperties.gatewayEnvironments = ['Production and Sandbox'];
 
         const promisedWSDLImport = Wsdl.import(apiInputs.inputValue, additionalProperties, 'SOAPTOREST');
         promisedWSDLImport
