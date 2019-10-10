@@ -195,7 +195,8 @@ class ApiThumb extends React.Component {
         } = api;
 
         let { provider } = api;
-        if (api.businessInformation && api.businessInformation.businessOwner && api.businessInformation.businessOwner.trim() !== '') {
+        if (api.businessInformation && api.businessInformation.businessOwner
+            && api.businessInformation.businessOwner.trim() !== '') {
             provider = api.businessInformation.businessOwner;
         }
         if (!api.lifeCycleStatus) {
