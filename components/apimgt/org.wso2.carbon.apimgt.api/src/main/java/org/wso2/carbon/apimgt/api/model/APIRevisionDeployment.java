@@ -20,6 +20,7 @@ package org.wso2.carbon.apimgt.api.model;
 
 import java.io.Serializable;
 
+
 public class APIRevisionDeployment implements Serializable {
     private static final long serialVersionUID = 1L;
     private int id;
